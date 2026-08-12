@@ -1,0 +1,90 @@
+class Button {
+    public static void main(String[] args) 
+	{
+        int buttonId = 101;
+        String buttonType = "Shirt Button";
+        String color = "White";
+        char size = 'M';
+        double price = 5.50;
+        float diameter = 2.0f;
+        boolean fourHoles = true;
+        long serialNumber = 9876543210L;
+        short quantity = 100;
+        byte thickness = 2;
+        String material = "Plastic";
+        String shape = "Round";
+        String brand = "Fashion";
+        String usage = "Clothing";
+        int stock = 500;
+        String manufacturer = "ABC Buttons";
+        boolean washable = true;
+        char quality = 'A';
+        float weight = 0.01f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println("buttonId:"+buttonId);
+        System.out.println("buttonType:"+buttonType);
+        System.out.println("color:"+color);
+        System.out.println("size:"+size);
+        System.out.println("price:"+price);
+        System.out.println("diameter:"+diameter);
+        System.out.println("fourHoles:"+fourHoles);
+        System.out.println("serialNumber:"+serialNumber);
+        System.out.println("quantity:"+quantity);
+        System.out.println("thickness:"+thickness);
+        System.out.println("material:"+material);
+        System.out.println("shape:"+shape);
+        System.out.println("brand:"+brand);
+        System.out.println("usage:"usage);
+        System.out.println("stock:"+stock);
+        System.out.println("manufacturer:"+manufacturer);
+        System.out.println("washable:"+washable);
+        System.out.println("quality);
+        System.out.println("weight);
+        System.out.println("country);
+
+        buttonId = 102;
+        buttonType = "Coat Button";
+        color = "Black";
+        size = 'L';
+        price = 10.75;
+        diameter = 2.5f;
+        fourHoles = false;
+        serialNumber = 1234567890L;
+        quantity = 200;
+        thickness = 3;
+        material = "Metal";
+        shape = "Square";
+        brand = "Premium";
+        usage = "Jacket";
+        stock = 300;
+        manufacturer = "XYZ Buttons";
+        washable = false;
+        quality = 'B';
+        weight = 0.02f;
+        country = "China";
+
+        System.out.println("Re-Initialization");
+        System.out.println(buttonId);
+        System.out.println(buttonType);
+        System.out.println(color);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(diameter);
+        System.out.println(fourHoles);
+        System.out.println(serialNumber);
+        System.out.println(quantity);
+        System.out.println(thickness);
+        System.out.println(material);
+        System.out.println(shape);
+        System.out.println(brand);
+        System.out.println(usage);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(washable);
+        System.out.println(quality);
+        System.out.println(weight);
+        System.out.println(country);
+    }
+}

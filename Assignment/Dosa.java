@@ -1,0 +1,90 @@
+class Dosa {
+    public static void main(String[] args) 
+	{
+        int dosaId = 101;
+        String dosaType = "Masala Dosa";
+        String hotelName = "Udupi Hotel";
+        char size = 'L';
+        double price = 80.50;
+        float weight = 0.35f;
+        boolean crispy = true;
+        long orderNumber = 9876543210L;
+        short preparationTime = 15;
+        byte pieces = 1;
+        String chutney = "Coconut";
+        String sambar = "Available";
+        String filling = "Potato";
+        String customerName = "Kavya";
+        int calories = 320;
+        String cookName = "Ramesh";
+        boolean homeDelivery = true;
+        char quality = 'A';
+        float rating = 4.8f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(dosaId);
+        System.out.println(dosaType);
+        System.out.println(hotelName);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(crispy);
+        System.out.println(orderNumber);
+        System.out.println(preparationTime);
+        System.out.println(pieces);
+        System.out.println(chutney);
+        System.out.println(sambar);
+        System.out.println(filling);
+        System.out.println(customerName);
+        System.out.println(calories);
+        System.out.println(cookName);
+        System.out.println(homeDelivery);
+        System.out.println(quality);
+        System.out.println(rating);
+        System.out.println(country);
+
+        dosaId = 102;
+        dosaType = "Plain Dosa";
+        hotelName = "MTR";
+        size = 'M';
+        price = 60.00;
+        weight = 0.30f;
+        crispy = false;
+        orderNumber = 1234567890L;
+        preparationTime = 10;
+        pieces = 2;
+        chutney = "Tomato";
+        sambar = "Extra";
+        filling = "None";
+        customerName = "Rahul";
+        calories = 250;
+        cookName = "Suresh";
+        homeDelivery = false;
+        quality = 'B';
+        rating = 4.5f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println(dosaId);
+        System.out.println(dosaType);
+        System.out.println(hotelName);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(crispy);
+        System.out.println(orderNumber);
+        System.out.println(preparationTime);
+        System.out.println(pieces);
+        System.out.println(chutney);
+        System.out.println(sambar);
+        System.out.println(filling);
+        System.out.println(customerName);
+        System.out.println(calories);
+        System.out.println(cookName);
+        System.out.println(homeDelivery);
+        System.out.println(quality);
+        System.out.println(rating);
+        System.out.println(country);
+    }
+}

@@ -1,0 +1,90 @@
+class Pizza {
+    public static void main(String[] args) 
+	{
+        int pizzaId = 101;
+        String pizzaName = "Margherita";
+        String brand = "Domino's";
+        char size = 'M';
+        double price = 299.99;
+        float weight = 0.45f;
+        boolean cheeseBurst = true;
+        long orderNumber = 9876543210L;
+        short preparationTime = 20;
+        byte slices = 8;
+        String crustType = "Thin Crust";
+        String topping = "Cheese";
+        String flavor = "Italian";
+        String customerName = "Kavya";
+        int calories = 850;
+        String restaurant = "Domino's Pizza";
+        boolean homeDelivery = true;
+        char quality = 'A';
+        float rating = 4.8f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println("Pizzzzza : "+ pizzaId);
+        System.out.println("PizzaName:"+pizzaName);
+        System.out.println("brand:"+brand);
+        System.out.println("size:"+size);
+        System.out.println("price:"+price);
+        System.out.println("weight:"+weight);
+        System.out.println("cheeseBurst:"+cheeseBurst);
+        System.out.println("orderNumber:"+orderNumber);
+        System.out.println("preparationTime:"+preparationTime);
+        System.out.println("slices:"+slices);
+        System.out.println("crustType:"+crustType);
+        System.out.println("topping:"+topping);
+        System.out.println("flavor:"+flavor);
+        System.out.println("customerName:"+customerName);
+        System.out.println("calories:"+calories);
+        System.out.println("restaurant:"+restaurant);
+        System.out.println("homeDelivery:"+homeDelivery);
+        System.out.println("quality:"+quality);
+        System.out.println("rating:"+rating);
+        System.out.println("country:"+country);
+
+        pizzaId = 102;
+        pizzaName = "Veg Supreme";
+        brand = "Pizza Hut";
+        size = 'L';
+        price = 499.50;
+        weight = 0.60f;
+        cheeseBurst = false;
+        orderNumber = 1234567890L;
+        preparationTime = 25;
+        slices = 10;
+        crustType = "Cheese Burst";
+        topping = "Mushroom";
+        flavor = "Mexican";
+        customerName = "Rahul";
+        calories = 1050;
+        restaurant = "Pizza Hut";
+        homeDelivery = false;
+        quality = 'B';
+        rating = 4.5f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println("pizzaId:"+pizzaId);
+        System.out.println("pizzaName:"+pizzaName);
+        System.out.println("brand:"+brand);
+        System.out.println("size:"+size);
+        System.out.println("price:"+price);
+        System.out.println("weight:"+weight);
+        System.out.println("cheeseBurst:"+cheeseBurst);
+        System.out.println("orderNumber:"+orderNumber);
+        System.out.println("preparationTime:"+preparationTime);
+        System.out.println("slices:"+slices);
+        System.out.println("crustType:"+crustType);
+        System.out.println("topping:"+topping);
+        System.out.println("flavor:"+flavor);
+        System.out.println("customerName:"+customerName);
+        System.out.println("calories:"+calories);
+        System.out.println("restaurant:"+restaurant);
+        System.out.println("homeDelivery:"+homeDelivery);
+        System.out.println("quality:"+quality);
+        System.out.println("rating:"+rating);
+        System.out.println("country:"+country);
+    }
+}

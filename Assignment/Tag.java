@@ -1,0 +1,90 @@
+class Tag {
+    public static void main(String[] args) {
+		
+        int tagId = 101;
+        String tagName = "Price Tag";
+        String tagColor = "White";
+        char tagSize = 'M';
+        double tagPrice = 15.50;
+        float tagWeight = 2.5f;
+        boolean tagAvailable = true;
+        long barcode = 9876543210L;
+        short quantity = 200;
+        byte discount = 10;
+        String material = "Paper";
+        String shape = "Rectangle";
+        String brand = "Nike";
+        String category = "Clothing";
+        int stock = 500;
+        String country = "India";
+        boolean reusable = false;
+        char quality = 'A';
+        float thickness = 0.5f;
+        String manufacturer = "Zecode Ltd";
+
+        System.out.println("Initialization");
+        System.out.println(tagId);
+        System.out.println(tagName);
+        System.out.println(tagColor);
+        System.out.println(tagSize);
+        System.out.println(tagPrice);
+        System.out.println(tagWeight);
+        System.out.println(tagAvailable);
+        System.out.println(barcode);
+        System.out.println(quantity);
+        System.out.println(discount);
+        System.out.println(material);
+        System.out.println(shape);
+        System.out.println(brand);
+        System.out.println(category);
+        System.out.println(stock);
+        System.out.println(country);
+        System.out.println(reusable);
+        System.out.println(quality);
+        System.out.println(thickness);
+        System.out.println(manufacturer);
+
+        tagId = 202;
+        tagName = "Name Tag";
+        tagColor = "Blue";
+        tagSize = 'L';
+        tagPrice = 20.75;
+        tagWeight = 3.2f;
+        tagAvailable = false;
+        barcode = 1234567890L;
+        quantity = 150;
+        discount = 15;
+        material = "Plastic";
+        shape = "Square";
+        brand = "Puma";
+        category = "Accessories";
+        stock = 300;
+        country = "China";
+        reusable = true;
+        quality = 'B';
+        thickness = 0.8f;
+        manufacturer = "Trends Ltd";
+
+        System.out.println("Re-Initialization");
+        System.out.println(tagId);
+        System.out.println(tagName);
+        System.out.println(tagColor);
+        System.out.println(tagSize);
+        System.out.println(tagPrice);
+        System.out.println(tagWeight);
+        System.out.println(tagAvailable);
+        System.out.println(barcode);
+        System.out.println(quantity);
+        System.out.println(discount);
+        System.out.println(material);
+        System.out.println(shape);
+        System.out.println(brand);
+        System.out.println(category);
+        System.out.println(stock);
+        System.out.println(country);
+        System.out.println(reusable);
+        System.out.println(quality);
+        System.out.println(thickness);
+        System.out.println(manufacturer);
+    }
+}

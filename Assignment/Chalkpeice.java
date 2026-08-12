@@ -1,0 +1,90 @@
+class ChalkPeice {
+    public static void main(String[] args) 
+	{
+        int chalkId = 101;
+        String brand = "Apsara";
+        String color = "White";
+        char size = 'M';
+        double price = 25.50;
+        float length = 8.5f;
+        boolean dustFree = true;
+        long barcode = 9876543210L;
+        short quantity = 100;
+        byte piecesPerBox = 20;
+        String shape = "Cylinder";
+        String material = "Calcium Carbonate";
+        String usage = "Classroom";
+        String quality = "Premium";
+        int stock = 500;
+        String manufacturer = "Hindustan Pencils";
+        boolean washable = true;
+        char grade = 'A';
+        float weight = 0.02f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(chalkId);
+        System.out.println(brand);
+        System.out.println(color);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(length);
+        System.out.println(dustFree);
+        System.out.println(barcode);
+        System.out.println(quantity);
+        System.out.println(piecesPerBox);
+        System.out.println(shape);
+        System.out.println(material);
+        System.out.println(usage);
+        System.out.println(quality);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(washable);
+        System.out.println(grade);
+        System.out.println(weight);
+        System.out.println(country);
+
+        chalkId = 102;
+        brand = "Camlin";
+        color = "Yellow";
+        size = 'L';
+        price = 30.75;
+        length = 9.0f;
+        dustFree = false;
+        barcode = 1234567890L;
+        quantity = 150;
+        piecesPerBox = 25;
+        shape = "Round";
+        material = "Gypsum";
+        usage = "Drawing";
+        quality = "Standard";
+        stock = 350;
+        manufacturer = "Camlin Ltd";
+        washable = false;
+        grade = 'B';
+        weight = 0.03f;
+        country = "Japan";
+
+        System.out.println("Re-Initialization");
+        System.out.println(chalkId);
+        System.out.println(brand);
+        System.out.println(color);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(length);
+        System.out.println(dustFree);
+        System.out.println(barcode);
+        System.out.println(quantity);
+        System.out.println(piecesPerBox);
+        System.out.println(shape);
+        System.out.println(material);
+        System.out.println(usage);
+        System.out.println(quality);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(washable);
+        System.out.println(grade);
+        System.out.println(weight);
+        System.out.println(country);
+    }
+}

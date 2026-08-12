@@ -1,0 +1,90 @@
+class Router {
+    public static void main(String[] args) {
+
+        int routerId = 101;
+        String brand = "TP-Link";
+        String model = "Archer C6";
+        char wifiBand = 'D';
+        double price = 2499.99;
+        float speed = 1200.5f;
+        boolean wifiEnabled = true;
+        long serialNumber = 9876543210L;
+        short warranty = 24;
+        byte lanPorts = 4;
+        String color = "Black";
+        String frequency = "2.4GHz & 5GHz";
+        String security = "WPA2";
+        String antennaType = "External";
+        int connectedDevices = 15;
+        String manufacturer = "TP-Link Technologies";
+        boolean dualBand = true;
+        char version = 'A';
+        float weight = 0.75f;
+        String country = "China";
+
+        System.out.println("Initialization");
+        System.out.println(routerId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(wifiBand);
+        System.out.println(price);
+        System.out.println(speed);
+        System.out.println(wifiEnabled);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(lanPorts);
+        System.out.println(color);
+        System.out.println(frequency);
+        System.out.println(security);
+        System.out.println(antennaType);
+        System.out.println(connectedDevices);
+        System.out.println(manufacturer);
+        System.out.println(dualBand);
+        System.out.println(version);
+        System.out.println(weight);
+        System.out.println(country);
+
+        routerId = 202;
+        brand = "D-Link";
+        model = "DIR-825";
+        wifiBand = 'S';
+        price = 3499.50;
+        speed = 1800.0f;
+        wifiEnabled = false;
+        serialNumber = 1234567890L;
+        warranty = 36;
+        lanPorts = 5;
+        color = "White";
+        frequency = "5GHz";
+        security = "WPA3";
+        antennaType = "Internal";
+        connectedDevices = 25;
+        manufacturer = "D-Link Corporation";
+        dualBand = false;
+        version = 'B';
+        weight = 0.90f;
+        country = "Taiwan";
+
+        System.out.println("Re-Initialization");
+        System.out.println(routerId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(wifiBand);
+        System.out.println(price);
+        System.out.println(speed);
+        System.out.println(wifiEnabled);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(lanPorts);
+        System.out.println(color);
+        System.out.println(frequency);
+        System.out.println(security);
+        System.out.println(antennaType);
+        System.out.println(connectedDevices);
+        System.out.println(manufacturer);
+        System.out.println(dualBand);
+        System.out.println(version);
+        System.out.println(weight);
+        System.out.println(country);
+    }
+}

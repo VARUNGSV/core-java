@@ -1,0 +1,90 @@
+class Internship {
+    public static void main(String[] args) 
+	{
+        int internshipId = 101;
+        String companyName = "Infosys";
+        String internName = "Kavya";
+        char grade = 'A';
+        double stipend = 15000;
+        float duration = 6.0f;
+        boolean certificateProvided = true;
+        long registrationNumber = 9876543210L;
+        short workingDays = 120;
+        byte workingHours = 8;
+        String domain = "Java Development";
+        String location = "Bengaluru";
+        String mentor = "Rahul";
+        String mode = "Offline";
+        int projectCount = 2;
+        String college = "XYZ College";
+        boolean placementOffer = false;
+        char performance = 'A';
+        float attendance = 98.5f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(internshipId);
+        System.out.println(companyName);
+        System.out.println(internName);
+        System.out.println(grade);
+        System.out.println(stipend);
+        System.out.println(duration);
+        System.out.println(certificateProvided);
+        System.out.println(registrationNumber);
+        System.out.println(workingDays);
+        System.out.println(workingHours);
+        System.out.println(domain);
+        System.out.println(location);
+        System.out.println(mentor);
+        System.out.println(mode);
+        System.out.println(projectCount);
+        System.out.println(college);
+        System.out.println(placementOffer);
+        System.out.println(performance);
+        System.out.println(attendance);
+        System.out.println(country);
+
+        internshipId = 102;
+        companyName = "IBM";
+        internName = "Rohan";
+        grade = 'B';
+        stipend = 20000;
+        duration = 3.0f;
+        certificateProvided = false;
+        registrationNumber = 1234567890L;
+        workingDays = 90;
+        workingHours = 6;
+        domain = "Python Development";
+        location = "Hyderabad";
+        mentor = "Priya";
+        mode = "Online";
+        projectCount = 3;
+        college = "ABC College";
+        placementOffer = true;
+        performance = 'A';
+        attendance = 96.0f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println(internshipId);
+        System.out.println(companyName);
+        System.out.println(internName);
+        System.out.println(grade);
+        System.out.println(stipend);
+        System.out.println(duration);
+        System.out.println(certificateProvided);
+        System.out.println(registrationNumber);
+        System.out.println(workingDays);
+        System.out.println(workingHours);
+        System.out.println(domain);
+        System.out.println(location);
+        System.out.println(mentor);
+        System.out.println(mode);
+        System.out.println(projectCount);
+        System.out.println(college);
+        System.out.println(placementOffer);
+        System.out.println(performance);
+        System.out.println(attendance);
+        System.out.println(country);
+    }
+}

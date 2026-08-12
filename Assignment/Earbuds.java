@@ -1,0 +1,90 @@
+class Earbuds {
+    public static void main(String[] args) {
+
+        int earbudsId = 101;
+        String brand = "boAt";
+        String model = "Airdopes 141";
+        char size = 'M';
+        double price = 1499.99;
+        float batteryLife = 42.5f;
+        boolean wireless = true;
+        long serialNumber = 9876543210L;
+        short warranty = 12;
+        byte bluetoothVersion = 5;
+        String color = "Black";
+        String chargingType = "Type-C";
+        String soundQuality = "HD";
+        String noiseCancellation = "ENC";
+        int stock = 150;
+        String manufacturer = "boAt Lifestyle";
+        boolean waterResistant = true;
+        char quality = 'A';
+        float weight = 0.05f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(earbudsId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(batteryLife);
+        System.out.println(wireless);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(bluetoothVersion);
+        System.out.println(color);
+        System.out.println(chargingType);
+        System.out.println(soundQuality);
+        System.out.println(noiseCancellation);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(waterResistant);
+        System.out.println(quality);
+        System.out.println(weight);
+        System.out.println(country);
+
+        earbudsId = 102;
+        brand = "Sony";
+        model = "WF-C700N";
+        size = 'L';
+        price = 5999.50;
+        batteryLife = 30.0f;
+        wireless = false;
+        serialNumber = 1234567890L;
+        warranty = 24;
+        bluetoothVersion = 6;
+        color = "White";
+        chargingType = "Wireless";
+        soundQuality = "Dolby";
+        noiseCancellation = "ANC";
+        stock = 80;
+        manufacturer = "Sony Corporation";
+        waterResistant = false;
+        quality = 'B';
+        weight = 0.06f;
+        country = "Japan";
+
+        System.out.println("Re-Initialization");
+        System.out.println(earbudsId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(batteryLife);
+        System.out.println(wireless);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(bluetoothVersion);
+        System.out.println(color);
+        System.out.println(chargingType);
+        System.out.println(soundQuality);
+        System.out.println(noiseCancellation);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(waterResistant);
+        System.out.println(quality);
+        System.out.println(weight);
+        System.out.println(country);
+    }
+}

@@ -1,0 +1,90 @@
+class Gun {
+    public static void main(String[] args) 
+	{
+        int gunId = 101;
+        String brand = "Colt";
+        String model = "Classic";
+        char size = 'M';
+        double price = 75000.50;
+        float weight = 1.25f;
+        boolean licensed = true;
+        long serialNumber = 9876543210L;
+        short warranty = 24;
+        byte magazineCapacity = 12;
+        String color = "Black";
+        String material = "Steel";
+        String type = "Handgun";
+        String manufacturer = "Colt Industries";
+        int productionYear = 2025;
+        String country = "USA";
+        boolean safetyLock = true;
+        char grade = 'A';
+        float barrelLength = 5.5f;
+        String condition = "New";
+
+        System.out.println("Initialization");
+        System.out.println(gunId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(licensed);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(magazineCapacity);
+        System.out.println(color);
+        System.out.println(material);
+        System.out.println(type);
+        System.out.println(manufacturer);
+        System.out.println(productionYear);
+        System.out.println(country);
+        System.out.println(safetyLock);
+        System.out.println(grade);
+        System.out.println(barrelLength);
+        System.out.println(condition);
+
+        gunId = 102;
+        brand = "Glock";
+        model = "G19";
+        size = 'L';
+        price = 85000.75;
+        weight = 1.40f;
+        licensed = false;
+        serialNumber = 1234567890L;
+        warranty = 36;
+        magazineCapacity = 15;
+        color = "Silver";
+        material = "Alloy";
+        type = "Pistol";
+        manufacturer = "Glock Inc.";
+        productionYear = 2026;
+        country = "Austria";
+        safetyLock = false;
+        grade = 'B';
+        barrelLength = 6.0f;
+        condition = "Used";
+
+        System.out.println("Re-Initialization");
+        System.out.println(gunId);
+        System.out.println(brand);
+        System.out.println(model);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(licensed);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(magazineCapacity);
+        System.out.println(color);
+        System.out.println(material);
+        System.out.println(type);
+        System.out.println(manufacturer);
+        System.out.println(productionYear);
+        System.out.println(country);
+        System.out.println(safetyLock);
+        System.out.println(grade);
+        System.out.println(barrelLength);
+        System.out.println(condition);
+    }
+}

@@ -1,0 +1,90 @@
+class MobileCase{
+	public static void main(String[] args)
+	{
+		int caseId = 101;
+		String brand = "Spigen";
+		String mobileBrand = "Sumsung";
+		char size = 'M';
+		double price = 499;
+		float weight = 0.15f;
+		boolean shockProof = true;
+		long serialNumber = 9876543210L;
+		short warranty = 12;
+		byte quantity = 30;
+		String color = "Black";
+		String material = "Silicone";
+		String design = "Matte";
+		String compatibility = "Galaxy S24";
+		int stock = 150;
+		String manufacturer =  "Spigen India";
+		boolean waterproof = false;
+		char quality = 'A';
+		float thickness = 2.5f;
+		String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(caseId);
+        System.out.println(brand);
+        System.out.println(mobileBrand);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(shockProof);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(quantity);
+        System.out.println(color);
+        System.out.println(material);
+        System.out.println(design);
+        System.out.println(compatibility);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(waterproof);
+        System.out.println(quality);
+        System.out.println(thickness);
+        System.out.println(country);
+
+        caseId = 102;
+        brand = "Ringke";
+        mobileBrand = "Apple";
+        size = 'L';
+        price = 899.50;
+        weight = 0.18f;
+        shockProof = false;
+        serialNumber = 1234567890L;
+        warranty = 24;
+        quantity = 20;
+        color = "Blue";
+        material = "TPU";
+        design = "Transparent";
+        compatibility = "iPhone 16";
+        stock = 100;
+        manufacturer = "Ringke Ltd";
+        waterproof = true;
+        quality = 'B';
+        thickness = 3.0f;
+        country = "South Korea";
+
+        System.out.println("Re-Initialization");
+        System.out.println(caseId);
+        System.out.println(brand);
+        System.out.println(mobileBrand);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(shockProof);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(quantity);
+        System.out.println(color);
+        System.out.println(material);
+        System.out.println(design);
+        System.out.println(compatibility);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(waterproof);
+        System.out.println(quality);
+        System.out.println(thickness);
+        System.out.println(country);
+    }
+}

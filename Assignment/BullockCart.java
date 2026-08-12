@@ -1,0 +1,90 @@
+class BullockCart {
+    public static void main(String[] args) {
+
+        int cartId = 101;
+        String cartName = "Village Bullock Cart";
+        String material = "Wood";
+        char size = 'L';
+        double price = 35000.50;
+        float weight = 450.75f;
+        boolean hasRoof = true;
+        long registrationNumber = 9876543210L;
+        short wheelCount = 2;
+        byte bullockCount = 2;
+        String color = "Brown";
+        String owner = "Ramesh";
+        String village = "Mandya";
+        String usage = "Transport";
+        int loadCapacity = 1000;
+        String manufacturer = "Village Workshop";
+        boolean available = true;
+        char condition = 'A';
+        float speed = 12.5f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(cartId);
+        System.out.println(cartName);
+        System.out.println(material);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(hasRoof);
+        System.out.println(registrationNumber);
+        System.out.println(wheelCount);
+        System.out.println(bullockCount);
+        System.out.println(color);
+        System.out.println(owner);
+        System.out.println(village);
+        System.out.println(usage);
+        System.out.println(loadCapacity);
+        System.out.println(manufacturer);
+        System.out.println(available);
+        System.out.println(condition);
+        System.out.println(speed);
+        System.out.println(country);
+
+        cartId = 102;
+        cartName = "Farm Bullock Cart";
+        material = "Bamboo";
+        size = 'M';
+        price = 42000.75;
+        weight = 500.25f;
+        hasRoof = false;
+        registrationNumber = 1234567890L;
+        wheelCount = 4;
+        bullockCount = 4;
+        color = "Red";
+        owner = "Suresh";
+        village = "Mysuru";
+        usage = "Agriculture";
+        loadCapacity = 1500;
+        manufacturer = "Rural Industries";
+        available = false;
+        condition = 'B';
+        speed = 10.0f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println(cartId);
+        System.out.println(cartName);
+        System.out.println(material);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(hasRoof);
+        System.out.println(registrationNumber);
+        System.out.println(wheelCount);
+        System.out.println(bullockCount);
+        System.out.println(color);
+        System.out.println(owner);
+        System.out.println(village);
+        System.out.println(usage);
+        System.out.println(loadCapacity);
+        System.out.println(manufacturer);
+        System.out.println(available);
+        System.out.println(condition);
+        System.out.println(speed);
+        System.out.println(country);
+    }
+}

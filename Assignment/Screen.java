@@ -1,0 +1,90 @@
+class Screen {
+    public static void main(String[] args) 
+	{
+        int screenId = 101;
+        String brand = "Samsung";
+        String type = "LED";
+        char size = 'L';
+        double price = 15999.99;
+        float screenSize = 32.5f;
+        boolean touchScreen = false;
+        long serialNumber = 9876543210L;
+        short warranty = 24;
+        byte hdmiPorts = 3;
+        String color = "Black";
+        String resolution = "1920x1080";
+        String displayType = "Full HD";
+        String refreshRate = "60Hz";
+        int stock = 80;
+        String manufacturer = "Samsung Electronics";
+        boolean smartScreen = true;
+        char quality = 'A';
+        float weight = 4.8f;
+        String country = "South Korea";
+
+        System.out.println("Initialization");
+        System.out.println(screenId);
+        System.out.println(brand);
+        System.out.println(type);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(screenSize);
+        System.out.println(touchScreen);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(hdmiPorts);
+        System.out.println(color);
+        System.out.println(resolution);
+        System.out.println(displayType);
+        System.out.println(refreshRate);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(smartScreen);
+        System.out.println(quality);
+        System.out.println(weight);
+        System.out.println(country);
+
+        screenId = 102;
+        brand = "LG";
+        type = "OLED";
+        size = 'M';
+        price = 24999.50;
+        screenSize = 43.0f;
+        touchScreen = true;
+        serialNumber = 1234567890L;
+        warranty = 36;
+        hdmiPorts = 4;
+        color = "Silver";
+        resolution = "3840x2160";
+        displayType = "4K UHD";
+        refreshRate = "120Hz";
+        stock = 60;
+        manufacturer = "LG Electronics";
+        smartScreen = false;
+        quality = 'B';
+        weight = 6.2f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println(screenId);
+        System.out.println(brand);
+        System.out.println(type);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(screenSize);
+        System.out.println(touchScreen);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(hdmiPorts);
+        System.out.println(color);
+        System.out.println(resolution);
+        System.out.println(displayType);
+        System.out.println(refreshRate);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(smartScreen);
+        System.out.println(quality);
+        System.out.println(weight);
+        System.out.println(country);
+    }
+}

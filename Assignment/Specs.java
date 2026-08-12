@@ -1,0 +1,90 @@
+class Specs {
+    public static void main(String[] args) 
+	{
+        int specsId = 101;
+        String brand = "Ray-Ban";
+        String frameColor = "Black";
+        char size = 'M';
+        double price = 3499.99;
+        float weight = 0.25f;
+        boolean antiGlare = true;
+        long serialNumber = 9876543210L;
+        short warranty = 12;
+        byte lensPower = 2;
+        String frameMaterial = "Metal";
+        String lensType = "Blue Cut";
+        String shape = "Round";
+        String userName = "Kavya";
+        int stock = 100;
+        String manufacturer = "Ray-Ban Ltd";
+        boolean uvProtection = true;
+        char quality = 'A';
+        float lensWidth = 52.5f;
+        String country = "India";
+
+        System.out.println("Initialization");
+        System.out.println(specsId);
+        System.out.println(brand);
+        System.out.println(frameColor);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(antiGlare);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(lensPower);
+        System.out.println(frameMaterial);
+        System.out.println(lensType);
+        System.out.println(shape);
+        System.out.println(userName);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(uvProtection);
+        System.out.println(quality);
+        System.out.println(lensWidth);
+        System.out.println(country);
+
+        specsId = 102;
+        brand = "Titan Eye+";
+        frameColor = "Brown";
+        size = 'L';
+        price = 4999.50;
+        weight = 0.30f;
+        antiGlare = false;
+        serialNumber = 1234567890L;
+        warranty = 24;
+        lensPower = 3;
+        frameMaterial = "Plastic";
+        lensType = "Photochromic";
+        shape = "Rectangle";
+        userName = "Rahul";
+        stock = 80;
+        manufacturer = "Titan Company";
+        uvProtection = false;
+        quality = 'B';
+        lensWidth = 55.0f;
+        country = "India";
+
+        System.out.println("Re-Initialization");
+        System.out.println(specsId);
+        System.out.println(brand);
+        System.out.println(frameColor);
+        System.out.println(size);
+        System.out.println(price);
+        System.out.println(weight);
+        System.out.println(antiGlare);
+        System.out.println(serialNumber);
+        System.out.println(warranty);
+        System.out.println(lensPower);
+        System.out.println(frameMaterial);
+        System.out.println(lensType);
+        System.out.println(shape);
+        System.out.println(userName);
+        System.out.println(stock);
+        System.out.println(manufacturer);
+        System.out.println(uvProtection);
+        System.out.println(quality);
+        System.out.println(lensWidth);
+        System.out.println(country);
+    }
+}
