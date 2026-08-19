@@ -1,9 +1,9 @@
 class AdharNumberRunner{
 	public static void main(String[] args){
 		
-		long chiranthAdharNumber=831417899554l;
+		long varunAdharNumber=831417899554l;
 		
-		long [] adharNumber={chiranthAdharNumber};
+		long [] adharNumber={varunAdharNumber};
 		
 		int numberOfElementsInAnArray=adharNumber.length;
 		
